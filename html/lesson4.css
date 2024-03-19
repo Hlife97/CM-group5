@@ -1,0 +1,18 @@
+div.box {
+    color: brown;
+    background-color: yellow;
+}
+
+.test {
+    background-color: red;
+}
+
+#boxid {
+    background-color: aquamarine;
+}
+
+/* comment */
+
+.form1 {
+    background-image: url('https://foyr.com/learn/wp-content/uploads/2021/08/modern-office-design.png');
+}

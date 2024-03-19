@@ -1,0 +1,46 @@
+.box {
+    background-color: bisque;
+    color: rgb(58, 83, 248);
+
+    padding: 20px;
+    margin: 10px 0 0 0;
+}
+
+.box h1 {
+    color: darkorchid;
+}
+
+#test {
+    background-color: lightcoral;
+    padding: 20px;
+}
+
+#test a {
+    background-color: yellow;
+}
+
+h2 {
+    color: green;
+}
+
+.cl {
+    color: darkgoldenrod;
+}
+
+#id {
+    color: midnightblue;
+}
+
+/* 
+
+id = 100,
+class = 10
+tagname = 1
+*/
+
+.baku-map {
+    width: 600px;
+    height: 250px;
+
+    border: 2px solid red;
+}

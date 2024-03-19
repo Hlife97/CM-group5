@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lesson 4</title>
+
+    <!-- css -->
+    <!-- external yeni xarici css -->
+    <link rel="stylesheet" href="lesson4.css">
+
+    <!-- internal yeni daxili css -->
+    <style>
+        h1 {
+            color: red;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Video</h1>
+    <video controls>
+        <source src="../video/movie.mp4" type="video/mp4">
+    </video>
+
+    <h1>Form</h1>
+
+    <form class="form1" autocomplete="off" style="color: green">
+        <fieldset>
+            <legend>User Information: </legend><br>
+
+            <label for="">Name</label>
+            <input type="text" placeholder="Ad daxil edin..." value="No name" required>
+
+            <label for="">Soyad</label>
+            <input type="text" autofocus placeholder="Soyad daxil edin..." minlength="3" maxlength="7" required>
+
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email">
+
+
+            <label for="points">Points:</label>
+            <input type="number" id="points" name="points" step="3">
+
+            <label for="men">Kisi</label>
+            <input type="radio" name="cinsiyyet" id="men">
+
+            <label for="women">qadin</label>
+            <input type="radio" name="cinsiyyet" id="women">
+        </fieldset>
+
+        <fieldset>
+            <legend>Other Information: </legend><br>
+
+            <label for="">sekil sec</label>
+            <input type="file" name="" id="" multiple>
+
+            <label for="">Olke sec</label>
+            <select name="" id="" required multiple>
+                <option value="">Azerbaijan</option>
+                <option value="" selected>Turkey</option>
+                <option value="">Russia</option>
+            </select>
+
+            <label for="">Mesaj</label>
+            <textarea name="" id="" cols="20" rows="3"></textarea>
+
+            <input list="browsers">
+            <datalist id="browsers">
+                <option value="Edge">
+                <option value="Firefox">
+                <option value="Chrome">
+                <option value="Opera">
+                <option value="Safari">
+            </datalist>
+        </fieldset>
+
+        <button>Gonder</button>
+    </form>
+
+    <div class="box">
+        Lorem ipsum dolor sit amet.
+    </div>
+
+    <p class="box">
+        Lorem ipsum dolor sit.
+    </p>
+
+    <div id="boxid" class="test">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam.
+    </div>
+</body>
+
+</html>
